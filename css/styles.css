@@ -600,6 +600,8 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  margin: 10px;
+  border: 2px solid black;
 }
 
 .img-thumbnail {
@@ -8193,10 +8195,10 @@ textarea.form-control-lg {
   color: #a42940;
 }
 
-.text-recolor{
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-  color: #a42c44;
+.text-recolor {
+  background: linear-gradient(to right, #7d1126, #b01f42, #d32953, #ed436a, #f86d82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text-secondary {
@@ -11605,6 +11607,7 @@ html {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  
 }
 .profile .dots-1 {
   position: absolute;
@@ -11742,8 +11745,4 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
-}
-
-.cambiodecolor {
-    color: #a42c44;
 }
